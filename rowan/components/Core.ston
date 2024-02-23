@@ -9,7 +9,7 @@ RwSimpleProjectLoadComponentV2 {
     'gemstone' : {
       'allusers' : {
         #packageNameToPlatformPropertiesMap : {
-          'Teachable-Core' : { 'symbolDictName' : 'Teachable' }
+          'Teachable-Core' : { 'symbolDictName' : 'Teachable-GS' }
         }
       }
     }
