@@ -1,6 +1,8 @@
 RwSimpleProjectLoadComponentV2 {
   #name : 'Core',
-  #projectNames : [ ],
+  #projectNames : [
+    'Buoy'
+  ],
   #componentNames : [	],
   #packageNames : [
     'Teachable-Core'
