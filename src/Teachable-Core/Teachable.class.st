@@ -45,7 +45,7 @@ Teachable >> doesNotUnderstand: aMessage [
 	learning := self learnings
 		at: aMessage selector
 		ifAbsent:[ ^super doesNotUnderstand: aMessage ].
-	^ learning class == Association
+	^ (learning isKindOf: Association)
 		ifTrue: [learning value]
 		ifFalse: [learning valueWithArguments: aMessage arguments]
 ]
