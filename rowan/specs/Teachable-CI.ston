@@ -1,0 +1,13 @@
+RwLoadSpecificationV2 {
+  #specName: 'Teachable-CI',
+  #projectName : 'Teachable',
+  #diskUrl : 'Teachable',
+  #projectSpecFile : 'rowan/project.ston',
+  #componentNames : [
+    'Tests'
+  ],
+  #customConditionalAttributes : [
+    'tests'
+  ],
+  #comment : 'Loading spec for the continuous integration setup'
+}

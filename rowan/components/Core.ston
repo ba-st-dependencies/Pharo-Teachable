@@ -1,0 +1,17 @@
+RwSimpleProjectLoadComponentV2 {
+  #name : 'Core',
+  #projectNames : [ ],
+  #componentNames : [	],
+  #packageNames : [
+    'Teachable-Core'
+  ],
+  #conditionalPackageMapSpecs : {
+    'gemstone' : {
+      'allusers' : {
+        #packageNameToPlatformPropertiesMap : {
+          'Teachable-Core' : { 'symbolDictName' : 'Teachable' }
+        }
+      }
+    }
+  }
+}

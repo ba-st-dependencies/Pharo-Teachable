@@ -1,0 +1,9 @@
+RwLoadSpecificationV2 {
+  #specName : 'Teachable-Core',
+  #projectName : 'Teachable',
+  #diskUrl : 'Teachable',
+  #projectSpecFile : 'rowan/project.ston',
+  #componentNames : [
+    'Core'
+  ]
+}
